@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	height:100vh;
+	width:100%;
+	background-image:url(C:/Users/YASHWANTH/Downloads/images/background.png);
+	background-position:center;
+	background-size:cover;
+	padding-left:5%;
+	padding-right:5%;
+	box-sizing:border-box;
+	position:relative;
+}
+.navbar{
+	width:100%;
+	height:15vh;
+	margin:auto;
+	display:flex;
+	align-items:center;
+}
+.logo{
+	width:160px;
+	cursor:pointer;
+	position:absolute;
+	top:10;
+	margin-left:3%;
+}
+.cart-img{
+	width:40px;
+	margin-left:95%;
+	top:3%;
+	position:absolute;
+	cursor:pointer;
+}
+nav{
+	flex:1;
+	padding-top:35px 0;
+	margin:auto;
+	display:flex;
+	width:85%;
+	align-items:center;
+	justify-content:space-between;
+	
+	
+	
+}
+nav ul li{
+	
+	margin-left:70px;
+	display:inline-block;
+	list-style:none;
+	margin:70px 20px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#333;
+	text-transform:uppercase;
+}
+.content h1 a{
+	font-size:60px;
+	font-weight:100;
+	position:absolute;
+	color:#232d60;
+}
+.content p{
+	font-size:20px;
+	position:absolute;
+	color:#6a7199;
+}
+.content{
+	margin-left:10%;
+	margin-top:10%;
+	position:absolute;
+	top:20%;
+	margin-left:15%;
+}
+.content .btn{
+	top:30%;
+	margin-left:6%;
+	display:inline-block;
+	background:linear-gradient(45deg,#87adfe,#ff77cd);
+	border-radius:6px;
+	padding:10px 20px;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:#fff;
+	box-shadow:3px 8px 22px rgba(94,28,68,0.15);
+}
+.arrow-icon{
+	
+	margin-top:40px;
+	display:flex;
+	top:40%;
+}
+.arrow-icons img{
+	position:absolute;
+	cursor:pointer;
+	top:125%;
+	width:40px;
+	margin-left:25px;
+}
+.feature-img{
+	height:90%;
+	position:absolute;
+	bottom:0;
+	right:160px;
+}
+.social-links{
+	transform:rotate(-90deg);
+	position:absolute;
+	left:-80px;
+	bottom:180px;
+}
+.social-links a{
+	text-decoration:none;
+	color:#6a7199;
+	padding-right:20px;
+	font-size:14px;
+}
+	
